@@ -1,0 +1,10 @@
+category: Devel
+build-depends: cygport 
+sdesc: "Gengetopt is a tool to write command line option parsing code for C programs"
+ldesc: "skeleton main.c generator
+ reads an interface description file, and writes a file containing
+ a command-line parser function.  gengetopt supports: long and short options,
+ 11 types of parameters (including flag, int, double, string, and function
+ call), and a usage message."
+skip:
+

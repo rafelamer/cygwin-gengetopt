@@ -1,0 +1,2 @@
+dummy.lo: \
+ /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/gl/dummy.c

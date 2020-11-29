@@ -1,0 +1,125 @@
+cygport 0.34.0 
+
+PF = gengetopt-2.23-1
+S = /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23
+B = /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build
+D = /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst
+C = /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/CYGWIN-PATCHES
+T = /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/temp
+CBUILD = x86_64-pc-cygwin
+CHOST = x86_64-pc-cygwin
+CTARGET = x86_64-pc-cygwin
+CC = gcc
+CFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+CPPFLAGS =
+CXX = g++
+CXXFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+F77 = gfortran
+FFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+FC = gfortran
+FCFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+GOC = gccgo
+GOFLAGS = -ggdb -O2 -pipe -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+OBJC = gcc
+OBJCFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+OBJCXX = g++
+OBJCXXFLAGS = -ggdb -O2 -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build=/usr/src/debug/gengetopt-2.23-1 -fdebug-prefix-map=/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23=/usr/src/debug/gengetopt-2.23-1
+LDFLAGS =
+LIBS =
+MAKEOPTS = -j2
+
+
+Making install in gl
+make[1]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make  install-recursive
+make[2]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[4]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[2]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+make[1]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/gl'
+Making install in src
+make[1]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+make  install-recursive
+make[2]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+Making install in skels
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+make  install-am
+make[4]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+make[5]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+make[4]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/skels'
+Making install in tests
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/tests'
+make[4]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/tests'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src/tests'
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+make[4]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/bin'
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/gengetopt'
+ /usr/bin/install -c -m 644 /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/src/gnugetopt.h /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/src/getopt.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/src/getopt1.c '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/gengetopt'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gengetopt.exe '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gengetopt.exe /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/bin/gengetopt.exe
+make[4]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+make[2]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+make[1]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/src'
+Making install in doc
+make[1]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+make  install-am
+make[2]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt'
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/examples'
+ /usr/bin/install -c -m 644 gengetopt.html /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/index.html '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt'
+ /usr/bin/install -c -m 644 /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/README.example /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/cmdline1.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/cmdline1.h /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/cmdline2.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/cmdline2.h /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/main1.cc /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/main2.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/sample1.ggo /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/sample2.ggo '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/examples'
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/man/man1'
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info'
+ /usr/bin/install -c -m 644 /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/gengetopt.1 '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./gengetopt.info /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/doc/index.info '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info'
+ install-info --info-dir='/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info' '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info/gengetopt.info'
+ install-info --info-dir='/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info' '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info/index.info'
+install-info: warning: no info dir entry in `/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/info/index.info'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+make[2]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+make[1]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/doc'
+Making install in tests
+make[1]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make  install-am
+make[2]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make[3]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/examples'
+ /usr/bin/install -c -m 644 /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/tests/test_manual_help.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/tests/test_manual_help_cmd.c /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/tests/test_manual_help_cmd.ggo /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/tests/test_manual_help_cmd.h '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/examples'
+make[3]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make[2]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make[1]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build/tests'
+make[1]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build'
+make[2]: Entering directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt'
+ /usr/bin/install -c -m 644 /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/ChangeLog /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/COPYING /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/NEWS /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/THANKS /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/INSTALL /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/README /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/src/gengetopt-2.23/LICENSE '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt'
+make[2]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build'
+make[1]: Leaving directory '/usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/build'
+/usr/bin/install -m0644 AUTHORS /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/AUTHORS
+/usr/bin/install -m0644 TODO /usr/local/src/cygwin-gengetopt/gengetopt-2.23-1.x86_64/inst/usr/share/doc/gengetopt/TODO
+Fixing symlinks:
+Compressing man pages:
+        gengetopt.1
+Compressing info pages:
+        gengetopt.info
+        index.info
+Stripping executables:
+        usr/bin/gengetopt.exe
+Preparing debuginfo source files:
+	1 files	2 files	3 files	4 files	5 files	6 files	7 files	8 files	9 files	10 files	11 files	12 files	13 files	14 files	15 files	16 files	17 files	18 files	19 files	20 files	21 files	22 files	23 files	24 files	25 files	26 files	27 files	28 files	29 files	30 files	31 files	32 files	33 files	34 files	35 files	36 files	37 files	38 files	39 files	40 files	41 files	42 files	43 files	44 files	45 files	46 files	47 files	48 files	49 files	50 files	51 files	52 files	53 files	54 files	55 files	56 files	57 files	58 files	59 files	60 files	61 files	62 files	63 files	64 files	65 files	66 files	67 files	68 files	69 files	70 files	71 files
