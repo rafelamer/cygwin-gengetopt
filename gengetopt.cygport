@@ -7,7 +7,6 @@ RELEASE=1
 #
 # Hint generation
 #
-REQUIRES="cygwin libgcc1 libstdc++6"
 CATEGORY="Devel"
 SUMMARY="Gengetopt is a tool to write command line option parsing code for C programs"
 DESCRIPTION="skeleton main.c generator
