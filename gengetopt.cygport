@@ -8,10 +8,12 @@ RELEASE=1
 # Hint generation
 #
 CATEGORY="Devel"
-SUMMARY="Gengetopt is a tool to write command line option parsing code for C programs"
+SUMMARY="Atool to write command line options parser code for C programs"
 DESCRIPTION="skeleton main.c generator
  reads an interface description file, and writes a file containing
  a command-line parser function.  gengetopt supports: long and short options,
  11 types of parameters (including flag, int, double, string, and function
  call), and a usage message."
-SRC_URI="https://ftp.gnu.org/gnu/gengetopt/gengetopt-2.23.tar.xz"
+SRC_URI="https://ftp.gnu.org/gnu/gengetopt/gengetopt-${VERSION}.tar.xz"
+HOMEPAGE="https://www.gnu.org/software/gengetopt/"
+DIFF_EXCLUDES="test_conf_parser_ov2.c test_conf_parser_ov3.c test_conf_parser_ov4.c"
