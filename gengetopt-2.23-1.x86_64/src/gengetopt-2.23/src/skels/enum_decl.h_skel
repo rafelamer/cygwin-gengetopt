@@ -1,1 +1,0 @@
-enum enum_@var_arg@ { @var_arg@__NULL = -1@enum_values@ };

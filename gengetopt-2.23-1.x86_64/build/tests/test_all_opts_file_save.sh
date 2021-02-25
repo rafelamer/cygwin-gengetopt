@@ -1,7 +1,0 @@
-#! /bin/sh
-
-set -ex
-
-"$@" ./test_all_opts -r "foo" --opt-arg -o -l 150000000 -f 150.217 -u \
-	--file-save="test_all_opts.save" -F \
-	these are command line options without names
